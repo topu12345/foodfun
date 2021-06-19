@@ -1,0 +1,358 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+   padding-top: 30px;
+}
+.nav-banner{
+    background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+   z-index: 1111;
+}
+.nav-brakground{
+    background-image: url(img/food1.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar-collapse ul {
+   margin: auto;
+}
+.navbar-collapse ul li a{
+    color: orange;
+   
+}
+.navbar-collapse ul li{
+    padding: 0px 20px;
+}
+.header-profile{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    
+}
+.header-profile h1{
+    font-size: 50px;
+}
+.header-profile b{
+    font-style: italic;
+    color: orange;
+}
+
+@media only screen and (max-width:980px){
+    .header-profile{
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 55%;
+       left: 10%;
+        
+    }
+    .header-profile h1{
+        font-size: 35px;
+    } 
+    .nav-banner{
+        margin:0px 10px ;
+        z-index: 1111;
+    } 
+}
+/*-----------welcome----------*/
+.welcome{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.welcome .card{
+    border: 1px solid white;
+}
+.welcome-profile{
+    margin-top: 150px;
+}
+.welcome-profile b{
+    font-style: italic;
+    color: orange;
+}
+.welcome-profile p{
+    color: gray;
+   margin-top: 10px;
+}
+.welcome-profile a{
+    color: black;
+    background-color: orange;
+  
+   padding: 10px 20px;
+    
+}
+.welcome-profile a:hover{
+    text-decoration: none;
+    border: 1px solid orange;
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width:980px){
+    .welcome-profile{
+        margin-top: 80px;
+    }
+}
+
+
+
+/*------------serve------------*/
+.serve-banner b{
+   font-style: italic;
+   color: orange;
+
+}
+.serve-banner p{
+    color: gray;
+    width: 50%;
+    margin: 20px 0px;
+}
+.food-profile{
+    margin: 20px;
+}
+.food-name{
+    display: inline-flex;
+    font-size: 20px;
+}
+.food-profile .food-name b{
+    color: orange;
+    font-style: italic;
+   margin-left: 100px;
+}
+.food-dis{
+    margin-top: 20px;
+    color: gray;
+}
+.food-card{
+    margin-top: 50px;
+}
+
+.food-card:hover{
+background-color: orange;
+ border: 1px solid white;
+}
+.food-card:hover .food-name b{
+   
+    color:black;
+}
+.food-row{
+    margin-bottom: 100px;
+}
+@media only screen and (max-width:980px){
+    .serve-banner p{
+        width: 100%;
+    }
+}
+
+
+
+/*---------Natural-------------*/
+.natural{
+    background-image: url(img/f1.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+
+}
+.natural .nat-infor{
+    position: absolute;
+     top: 40%;
+    left: 30%;
+    color: white;
+    
+    text-align: center;
+   
+
+}
+.natural .nat-infor p{
+    font-size: 40px;
+}
+.natural .nat-infor h4{
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.natural .nat-infor a{
+   
+    border: 1px solid orange;
+    padding: 10px 25px;
+    color: white;
+
+    
+}
+.natural .nat-infor a:hover{
+  text-decoration: none;
+    background-color: none;
+   background-color: orange;
+}
+
+
+@media only screen and (max-width:980px){
+    .natural{
+        height: 80vh;
+    }
+    .natural .nat-infor{
+        position: absolute;
+         top: 30%;
+        left: 10%;
+        color: white;
+        
+        text-align: center;
+    }
+}
+/*-------- deshes----------*/
+.deshes{
+    margin: 100px 0px;
+}
+.deshes-banner{
+    text-align: center;
+}
+.deshes-banner h5{
+    font-size: 35px;
+}
+.deshes-banner b{
+    color: orange;
+    font-style: italic;
+}
+.deshes-banner p{
+    color: gray;
+    font-style: italic;
+}
+.deshes-number{
+    font-size: 40px;
+    
+}
+.deshes-dis{
+    margin-left: 50px;
+}
+.deshes-dis h4{
+    font-size: 30px;
+}
+.deshes-dis b{
+    font-size: 30px ;
+    color: orange;
+    font-style: italic;
+}
+.deshes-dis p{
+    padding-top: 10px;
+    color: gray;
+}
+.deshes-link{
+margin-top: 10px;
+}
+.deshes-link a{
+  color: black;
+
+}
+.deshes-link a:hover{
+text-decoration: none;
+color: black;
+}
+.deshes-link:hover i{
+   padding-left: 10px;
+    color: orange;
+    transition: .5s;
+}
+.deshes-img .card img{
+    padding: 50px;
+   
+}
+.deshes-img .card {
+    border: none;
+}
+/*-------------food update----------*/
+.col-up{
+    margin-top: 50px;
+}
+.col-up .card{
+    border: none;
+}
+.col-up .card:hover{
+    box-shadow: 2px 3px 6px 4px orange;
+}
+.food-update{
+    margin: 30px 20px;
+}
+.date-up{
+    margin-bottom: 10px;
+    color: gray;
+}
+.up-dis h5{
+font-size: 20px;
+}
+.up-dis p{
+    color: gray;
+}
+
+
+
+
+.con-food{
+    padding: 100px 0px;
+  
+}
+.last-food{
+    background-color:rgb(43, 43, 87);
+}
+.con-food p{
+    color: white;
+    margin: 20px 10px 10px 0px;
+}
+.con-contact h5{
+ color: white;
+ margin: 10px;
+ margin-bottom: 10px;
+}
+.con-contact .fa{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+.con-contact ul li{
+    list-style: none;
+}
+.con-contact ul li b{
+ padding: 0px 10px;
+}
+.follows{
+    margin: 10px;
+    color: white;
+}
+.follow-link a{
+    
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+.follow-link{
+    width: 50%;
+}
+.follow-link a:hover{
+    color: orange;
+}
+.vl{
+    border-top: white 1px solid;
+    margin: 80px 0px;
+}
+.vl p{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+    
+    padding-bottom: 40px;
+}
+@media only screen and (max-width:980px){
+    .follow-link{
+        width: 70%;
+    }
+}
